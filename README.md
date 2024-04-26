@@ -1,8 +1,9 @@
-Project Overview
+# Project Overview #
+
 This project successfully developed a digital system capable of sampling 8-bit data from any available analog inputs on Digilent’s Cora Z7 board's Analog header. 
 The system controls the angular position of a servo motor, the intensity of PMOD LEDs, and the speed of a DC motor. It meets the following specifications:
 
-Parts List     
+# Parts List     
 1.	Digilent Cora-Z7-07S 
 2.	PMOD buttons and LEDs
 3.	Arduino Starter Kit components:
@@ -23,7 +24,7 @@ Parts List
 
   	o	3.3/5V Power Supply
 
-Key Features
+# Key Features
 
 Hardware and Tools: Utilizes Digilentinc's Cora-Z7 board, along with Xilinx's Vivado and SDK tools for design.
 
@@ -57,3 +58,7 @@ Distance displayed on the LCD screen.
 Debugging and Demonstration:
 Recommended to use a debug logic analyzer for debugging purposes.
 Demonstrates functionality with a simple data transaction on a selected bus, focusing on essential signals for data transactions.
+
+
+# Note #
+If you encounter any challenges while attempting to replicate this project, don't hesitate to reach out. I'm available to answer any questions and provide assistance with debugging. Your success is important to me!
